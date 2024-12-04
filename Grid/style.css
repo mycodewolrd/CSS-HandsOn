@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: rgb(5, 5, 48);
+    color:aliceblue;
+}
+.container{
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(26, 26, 101);
+    border: 2px solid rgb(193, 191, 191);
+}
+h1, h2{
+    color: aliceblue;
+}
+span{
+    font-size:large;
+}
+.grid-container{
+    display: grid;
+    gap: 10px;
+    background-color: rgb(165, 207, 243);
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.box{
+    background-color: rgb(236, 107, 82);
+    color: whitesmoke;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+}
+.box:nth-child(even) {
+    background-color: rgb(85, 93, 249);
+}
