@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: rgb(5, 5, 48);
+    color:aliceblue;
+}
+.container{
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(4, 4, 61);
+    border: 2px solid rgb(193, 191, 191);
+}
+h1, h2{
+    color: aliceblue;
+}
+span{
+    font-size:large;
+}
+.flex_container{
+    display: flex;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.Pastel_1{
+    background-color: #ec8c95;
+    color: rgb(111, 100, 100);
+}
+.Pastel_2{
+    background-color: #8ffaa7;
+    color: rgb(111, 100, 100);
+}
+.Pastel_3{
+    background-color: #99cef7;
+    color: rgb(111, 100, 100);
+}
+.Pastel_4{
+    background-color: #e8e890;
+    color: rgb(111, 100, 100);
+}
+.Pastel_5{
+    background-color: #f369c2;
+    color: rgb(111, 100, 100);
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Master</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Flexbox Masterclass Demo</h1>
+
+    <div class="container">
+      <h2>1. Default Flex <span>(row)</span></h2>
+      <div class="flex_container">
+        <div class="circle Pastel_1">1</div>
+        <div class="circle Pastel_2">2</div>
+        <div class="circle Pastel_3">3</div>
+        <div class="circle Pastel_4">4</div>
+        <div class="circle Pastel_5">5</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>2. Flex Direction: Column
+        <span>(directed like a Column)</span>
+      </h2>
+      <div class="flex_container" style="flex-direction: column; height: auto">
+        <div class="circle Pastel_1">1</div>
+        <div class="circle Pastel_2">2</div>
+        <div class="circle Pastel_3">3</div>
+        <div class="circle Pastel_4">4</div>
+        <div class="circle Pastel_5">5</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>
+        3. Justify Content: Space-Around
+        <span>(aligns contents from Left-right direction)</span>
+      </h2>
+      <div class="flex_container" style="justify-content: space-around">
+        <div class="circle Pastel_1">1</div>
+        <div class="circle Pastel_2">2</div>
+        <div class="circle Pastel_3">3</div>
+        <div class="circle Pastel_4">4</div>
+        <div class="circle Pastel_5">5</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>
+        4. Align Items: Center 
+        <span>(aligns items top-bottom direction)</span>
+      </h2>
+      <div class="flex_container" style="align-items: center">
+        <div class="circle Pastel_1">1</div>
+        <div class="circle Pastel_2">2</div>
+        <div class="circle Pastel_3">3</div>
+        <div class="circle Pastel_4">4</div>
+        <div class="circle Pastel_5">5</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>5. Flex Wrap: Wrap
+        <span>(create multipleline and Wrap things)</span>
+      </h2>
+      <div class="flex_container" style="flex-wrap: wrap; height: auto">
+        <div class="circle Pastel_1">1</div>
+        <div class="circle Pastel_2">2</div>
+        <div class="circle Pastel_3">3</div>
+        <div class="circle Pastel_4">4</div>
+        <div class="circle Pastel_5">5</div>
+        <div class="circle Pastel_1">6</div>
+        <div class="circle Pastel_2">7</div>
+        <div class="circle Pastel_3">8</div>
+        <div class="circle Pastel_4">9</div>
+        <div class="circle Pastel_5">10</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>6. Align Content: Space-Around(with Wrap)
+        <span>(work like a box and moving top-bottom direction)</span>
+      </h2>
+      <div
+        class="flex_container"
+        style="flex-wrap: wrap; align-content: space-evenly"
+      >
+        <div class="circle Pastel_1">1</div>
+        <div class="circle Pastel_2">2</div>
+        <div class="circle Pastel_3">3</div>
+        <div class="circle Pastel_4">4</div>
+        <div class="circle Pastel_5">5</div>
+        <div class="circle Pastel_1">6</div>
+        <div class="circle Pastel_2">7</div>
+        <div class="circle Pastel_3">8</div>
+        <div class="circle Pastel_4">9</div>
+        <div class="circle Pastel_5">10</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>7. Order Property
+        <span>(change their position)</span>
+      </h2>
+      <div class="flex_container">
+        <div class="circle Pastel_1"
+        style="order: 4;">1</div>
+        <div class="circle Pastel_2"
+        style="order: 1;">2</div>
+        <div class="circle Pastel_3"
+        style="order: 3;">3</div>
+        <div class="circle Pastel_4"
+        style="order: 2;">4</div>
+        <div class="circle Pastel_5"
+        style="order: 5;">5</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>8. Flex Grow
+        <span>(works on child-elements distribution, only possible when use flex)</span>
+      </h2>
+      <div class="flex_container">
+        <div class="circle Pastel_1" style="flex-grow: 0;">1</div>
+        <div class="circle Pastel_2" style="flex-grow: 2;">2</div>
+        <div class="circle Pastel_3" style="flex-grow: 5;">3</div>
+        <div class="circle Pastel_4" style="flex-grow: 7;">4</div>
+        <div class="circle Pastel_5" style="flex-grow: 3;">5</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>9. Align Self
+        <span>(applicable for child-elements, align itself in top-bottom direction )</span>
+      </h2>
+      <div class="flex_container">
+        <div class="circle Pastel_1" style="align-self: flex-start;">1</div>
+        <div class="circle Pastel_2" style="align-self:center;">2</div>
+        <div class="circle Pastel_3" style="align-self: flex-end;">3</div>
+        <div class="circle Pastel_4" style="align-self:baseline;">4</div>
+        <div class="circle Pastel_5" style="align-self:self-end;">5</div>
+        <div class="circle Pastel_2" style="align-self:safe;">6</div>
+        <div class="circle Pastel_4" style="align-self:last baseline;">7</div>
+      </div>
+    </div>
+  </body>
+</html>
