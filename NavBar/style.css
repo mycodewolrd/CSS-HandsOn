@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(5, 5, 48);
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+.nav_container{
+    margin-bottom: 40px;
+}
+h2{
+    margin-bottom: 10px;
+}
+
+/*Let's style nav_1*/
+.nav_1{
+    background-color: rgb(18, 18, 86);
+    padding: 10px;
+}
+.nav_1 ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration-line: none;
+    list-style-type: none;
+}
+.nav li{
+    display: inline;
+}
+.nav_1 a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+.nav_1 a:hover{
+    color: rgb(96, 189, 236)
+}
+.nav_1 .login-btn{
+    padding: 5px 15px;
+    border: none;
+    border-radius:5px;
+    background-color: rgb(7, 64, 92);
+    color: white;
+    cursor: pointer;
+}
+.nav_1 .login-btn:hover{
+    background-color: rgb(5, 48, 74);
+    color: rgb(96, 189, 236);
+    border: 1px solid rgb(132, 132, 137);
+}
+/*Let's style nav_2*/
+.nav_2{
+    background-color: rgb(18, 18, 86);
+    width: 100px;
+    height: 100%;
+    padding: 10px;
+}
+.nav_2 ul{
+    margin: 0;
+    padding: 2px 8px;
+    text-decoration-line: none;
+    list-style-type: none;
+}
+.nav_2 li{
+    margin-bottom: 10px;
+}
+.nav_2 a{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+.nav_2 a:hover{
+    color: rgb(96, 189, 236)
+}
+.nav_2 .login-btn{
+    padding: 5px 15px;
+    border: none;
+    border-radius:5px;
+    background-color: rgb(7, 64, 92);
+    color: white;
+    cursor: pointer;
+}
+.nav_2 .login-btn:hover{
+    background-color: rgb(5, 48, 74);
+    color: rgb(96, 189, 236);
+    border: 1px solid rgb(132, 132, 137);
+}
+
+
+/*Let's style nav_3*/
+.nav_3{
+    background-color: rgb(18, 18, 86);
+    padding: 10px;
+}
+.nav_3 ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration-line: none;
+    list-style-type: none;
+}
+.nav li{
+    display: inline;
+}
+.nav_3 a{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+.nav_3 a:hover{
+    color: rgb(96, 189, 236)
+}
+.nav_3 .dropContent{
+    display: none;
+}
+.nav_3 .dropdown:hover .dropContent{
+    display: block;
+    position: absolute;
+    background-color: rgb(7, 64, 92);
+}
+.nav_3 .login-btn{
+    padding: 5px 15px;
+    border: none;
+    border-radius:5px;
+    background-color: rgb(7, 64, 92);
+    color: white;
+    cursor: pointer;
+}
+.nav_3 .login-btn:hover{
+    background-color: rgb(5, 48, 74);
+    color: rgb(96, 189, 236);
+    border: 1px solid rgb(132, 132, 137);
+}
